@@ -1,0 +1,23 @@
+/*
+ * main.c
+ *
+ *  Created on: Jan 17, 2022
+ *      Author: rsamonte
+ */
+
+
+#include <stdio.h>
+#include <stdint.h>
+
+#define PI_VALUE 3.14
+
+
+
+int main(void)
+{
+	int area_Circle;
+
+
+
+
+}

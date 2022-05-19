@@ -1,0 +1,10 @@
+01:09:59 **** Incremental Build of configuration Debug for project IOPinRead ****
+make -j12 all 
+arm-none-eabi-size   IOPinRead.elf 
+   text	   data	    bss	    dec	    hex	filename
+    828	      8	   1568	   2404	    964	IOPinRead.elf
+Finished building: default.size.stdout
+ 
+
+01:10:00 Build Finished. 0 errors, 0 warnings. (took 244ms)
+

@@ -1,0 +1,7 @@
+15:10:55 **** Incremental Build of configuration Debug for project macro_test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o macro_test.exe main.o 
+
+15:10:56 Build Finished. 0 errors, 0 warnings. (took 669ms)
+

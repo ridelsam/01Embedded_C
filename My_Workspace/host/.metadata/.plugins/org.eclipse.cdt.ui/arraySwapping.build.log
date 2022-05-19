@@ -1,0 +1,7 @@
+19:49:43 **** Incremental Build of configuration Debug for project arraySwapping ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o arraySwapping.exe main.o 
+
+19:49:44 Build Finished. 0 errors, 0 warnings. (took 684ms)
+

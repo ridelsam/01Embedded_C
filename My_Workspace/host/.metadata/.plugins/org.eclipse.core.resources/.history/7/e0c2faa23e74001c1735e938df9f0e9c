@@ -1,0 +1,157 @@
+/*
+ * main.c
+ *
+ *  Created on: Jan 12, 2022
+ *      Author: rsamonte
+ */
+
+
+#include<stdio.h>
+#include<stdint.h>
+
+void wait_for_user_input (void);
+
+
+int main(void)
+{
+
+	int8_t shape;
+
+	float radius, area, base, base1, base2, height, side, width, length, applepie;
+	applepie = 3.1415;
+
+	printf("Area Calculation Program \n");
+	printf("Circle			--> c\n");
+	printf("Triangle		--> t\n");
+	printf("Rectangle		--> r\n");
+	printf("Square			--> s\n");
+	printf("Trapezoid		--> z\n");
+
+	scanf("%c'", &shape);
+
+	switch (shape)
+	{
+	case 'c':
+
+		printf("Enter radius of circle \n");
+		scanf("%f'", &radius);
+
+		if(radius>=0){
+			area = applepie*(radius^2);
+			printf("Area  of circle: %f\n", area);
+
+		} else {
+			printf("Wrong input! Exiting...\n");
+		}
+
+		break;
+
+	case 't':
+
+
+
+		printf("Enter base of triangle \n");
+		scanf("%f'", &base);
+
+		printf("Enter height of triangle \n");
+		scanf("%f'", &height);
+
+		if(base>=0  && height>=0){
+			area = (height*base)/2;
+			printf("Area  of triangle: %f\n", area);
+
+		} else {
+			printf("Wrong input! Exiting...\n");
+		}
+
+		break;
+
+	case 'r':
+
+
+
+		printf("Enter width of rectangle \n");
+		scanf("%f'", &width);
+
+		printf("Enter length of rectangle \n");
+		scanf("%f'", &length);
+
+		if(width>=0  && length>=0){
+			area = length*width;
+			printf("Area  of rectangle: %f\n", area);
+
+		} else {
+			printf("Wrong input! Exiting...\n");
+		}
+
+		break;
+
+	case 's':
+
+		printf("Enter side of square \n");
+		scanf("%f'", &side);
+
+
+		if(side>=0){
+			area = side^2;
+			printf("Area  of square: %f\n", area);
+
+		} else {
+			printf("Wrong input! Exiting...\n");
+		}
+
+		break;
+
+	case 'z':
+
+		float base1, base2, height, area;
+
+		printf("Enter base1 of trapezoid \n");
+		scanf("%f'", &base1);
+
+		printf("Enter base1 of trapezoid \n");
+		scanf("%f'", &base3);
+
+		printf("Enter height of trapezoid \n");
+		scanf("%f'", &height);
+
+		if(base1>=0  && base2>=0 && height>=0){
+			area = ((base1+base2)/2)*height;
+			printf("Area  of triangle: %f\n", area);
+
+		} else {
+			printf("Wrong input! Exiting...\n");
+		}
+
+		break;
+
+
+	default:
+		printf("Wrong input! Exiting...\n");
+		break;
+
+
+	}
+
+
+	wait_for_user_input();
+	return 0;
+
+
+
+
+
+
+
+void wait_for_user_input (void)
+{
+	printf("Press enter key to exit\n");
+
+	while(getchar() != '\n'){
+
+			//just read the input buffer and do nothing
+	}
+	getchar();
+
+
+}

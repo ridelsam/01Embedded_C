@@ -1,0 +1,30 @@
+2022-01-03 15:34:07,826 [INFO] Activator:177 - 
+
+
+2022-01-03 15:34:07,828 [INFO] Activator:178 - !SESSION log4j initialized
+2022-01-03 15:34:10,502 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-01-03 15:35:07,387 [INFO] Activator:177 - 
+
+
+2022-01-03 15:35:07,388 [INFO] Activator:178 - !SESSION log4j initialized
+2022-01-03 15:35:10,473 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-01-03 15:39:20,931 [INFO] Activator:177 - 
+
+
+2022-01-03 15:39:20,932 [INFO] Activator:178 - !SESSION log4j initialized
+2022-01-03 15:39:25,299 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-01-03 15:48:37,267 [INFO] Activator:177 - 
+
+
+2022-01-03 15:48:37,268 [INFO] Activator:178 - !SESSION log4j initialized
+2022-01-03 15:48:39,406 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-01-03 15:48:39,409 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-01-03 15:48:39,411 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-01-03 15:48:40,269 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-01-03 15:48:42,369 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Jan 03, 2022 3:48:42 PM org.glassfish.grizzly.http.server.NetworkListener start
+2022-01-03 15:48:42,370 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] INFO: Started listener bound to [localhost:1595]
+2022-01-03 15:48:42,370 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-01-03 15:48:42,371 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Jan 03, 2022 3:48:42 PM org.glassfish.grizzly.http.server.HttpServer start
+2022-01-03 15:48:42,372 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] INFO: [HttpServer] Started.
+2022-01-03 15:48:42,372 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-01-03 16:24:18,174 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 

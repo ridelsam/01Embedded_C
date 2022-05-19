@@ -1,0 +1,58 @@
+/*
+ * main.c
+ *
+ *  Created on: Jan 12, 2022
+ *      Author: rsamonte
+ */
+
+
+#include<stdio.h>
+#include<stdint.h>
+#include <ctype.h>
+
+int main(void)
+{
+	float n1;
+	float n2;
+
+	printf("Enter two numbers \n");
+
+	printf("1st number:\n ");
+	scanf("%f'", &n1);
+
+	printf("2nd number:\n ");
+	scanf("%f'", &n2);
+	//fflush(stdout);
+
+	if ( isalpha(n1) || isalpha(n2) ) {
+
+		printf("Wrong input!\n");
+
+	} else if (n1 > n2) {
+
+			printf("1st number %f is bigger!\n", n1);
+
+
+	} else if (n2 > n1) {
+
+			printf("2nd number %f is bigger!\n", n2);
+
+	} else {
+
+			printf("Both numbers are equal\n");
+
+	}
+
+
+	printf("Press enter key to exit\n");
+
+	while(getchar() != '\n'){
+
+
+
+
+	}
+	getchar();
+
+	return 0;
+}

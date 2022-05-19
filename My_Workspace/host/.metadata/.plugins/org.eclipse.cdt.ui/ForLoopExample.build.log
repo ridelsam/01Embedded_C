@@ -1,0 +1,7 @@
+17:43:13 **** Incremental Build of configuration Debug for project ForLoopExample ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ForLoopExample.exe main.o 
+
+17:43:14 Build Finished. 0 errors, 0 warnings. (took 1s.582ms)
+

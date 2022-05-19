@@ -1,0 +1,28 @@
+/*
+ * main.c
+ *
+ *  Created on: Jan 10, 2022
+ *      Author: rsamonte
+ */
+
+
+
+#include<stdio.h>
+
+long long int g_data = 0xFFFEABCD11112345
+
+int main(void)
+{
+
+	char *pAddress1;
+
+	pAddress1 = (char*)&g_data;
+
+
+
+
+
+
+	return 0;
+
+}
